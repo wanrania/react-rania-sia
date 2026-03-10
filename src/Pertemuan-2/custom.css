@@ -1,0 +1,82 @@
+/* Styling untuk keseluruhan halaman dengan nuansa pastel romantis */
+body {
+    /* Menggunakan font serif agar terlihat klasik dan vintage */
+    font-family: 'Georgia', 'Times New Roman', serif; 
+    background-color: #fdf2f8; /* Pink pastel sangat muda */
+    /* Menambahkan pola polkadot samar yang manis */
+    background-image: radial-gradient(#fbcfe8 1px, transparent 1px);
+    background-size: 20px 20px;
+    color: #5c3a4d; /* Warna ungu/cokelat kemerahan yang lembut (bukan hitam pekat) */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container utama bergaya "Surat Cinta" / Coquette Box */
+.card {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 20px; /* Sudut lebih membulat dan lembut */
+    border: 2px dashed #f9a8d4; /* Border putus-putus warna pink menyerupai renda/jahitan */
+    box-shadow: 0 8px 16px rgba(244, 114, 182, 0.15); /* Bayangan pink yang sangat halus */
+    position: relative;
+}
+
+/* Dekorasi Pita dan Bunga di atas card */
+.card::before {
+    content: "🎀 🌸 🎀";
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Header utama dengan warna Rose/Deep Pink */
+h1 {
+    color: #db2777; 
+    text-align: center;
+    font-style: italic; /* Memberi kesan elegan */
+    text-shadow: 1px 1px 2px #fbcfe8; /* Efek glow/bayangan pink muda */
+    margin-top: 0;
+}
+
+/* Paragraf yang lebih mudah dibaca dengan warna hangat */
+p {
+    font-size: 16px;
+    line-height: 1.8; /* Jarak baris lebih longgar agar terlihat lapang */
+    color: #704b60; 
+    text-align: justify;
+}
+
+/* Garis pemisah dengan hiasan bunga di tengahnya */
+hr {
+    border: none;
+    height: 0;
+    border-top: 2px dotted #f472b6; /* Garis titik-titik pink */
+    margin: 30px 0;
+    text-align: center;
+}
+
+/* Bunga mungil di tengah garis pemisah */
+hr::after {
+    content: "❀"; 
+    display: inline-block;
+    position: relative;
+    top: -14px; /* Menempatkan bunga pas di atas garis */
+    font-size: 20px;
+    color: #db2777;
+    background: #ffffff; /* Background putih agar menutupi garis di belakangnya */
+    padding: 0 10px;
+}
+
+/* Greeting / Pesan manis di bawah */
+small {
+    display: block;
+    font-style: italic;
+    text-align: center;
+    color: #be185d; /* Pink gelap */
+    margin-top: 15px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
