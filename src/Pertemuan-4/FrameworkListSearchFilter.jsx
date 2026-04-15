@@ -115,7 +115,7 @@ export default function FrameworkListSearchFilter() {
             {item.tags.map((tag, index) => (
               <span
                 key={index}
-                className="bg-gradient-to-r from-pink-200 to-pink-300 text-pink-900 px-3 py-1 text-xs font-bold rounded-full border border-pink-300 shadow-sm"
+                className="bg-linear-to-r from-pink-200 to-pink-300 text-pink-900 px-3 py-1 text-xs font-bold rounded-full border border-pink-300 shadow-sm"
               >
                 {tag}
               </span>
