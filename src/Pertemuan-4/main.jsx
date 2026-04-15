@@ -7,7 +7,7 @@ import ResponsiveGrid from "./ResponsiveGrid";
 createRoot(document.getElementById("root")).render(
   <div>
      {/* <FrameworkList/> */}
-     {/* <FrameworkListSearchFilter/> */}
-     <ResponsiveGrid/>
+     <FrameworkListSearchFilter/>
+     {/* <ResponsiveGrid/> */}
   </div>,
 );
