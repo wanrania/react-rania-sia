@@ -1,8 +1,15 @@
 import { MdDashboard } from "react-icons/md";
 import { FaList } from "react-icons/fa";
 import { FaHeadphones } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 export default function Sidebar() {
+        const menuClass = ({ isActive }) =>
+        `flex cursor-pointer items-center rounded-xl p-4  space-x-2
+        ${isActive ? 
+            "text-hijau bg-green-200 font-extrabold" : 
+            "text-gray-600 hover:text-hijau hover:bg-green-200 hover:font-extrabold"
+        }`
     return (
         <div
             id="sidebar"
@@ -31,33 +38,36 @@ export default function Sidebar() {
                 <ul id="menu-list" className="space-y-3">
 
                     <li>
-                        <div
+                        <NavLink
                             id="menu-1"
-                            className="hover:text-hijau flex cursor-pointer items-center rounded-xl p-4 font-medium text-gray-600 hover:bg-green-200 hover:font-extrabold"
+                            to="/"
+                            className={menuClass}
                         >
                             <MdDashboard className="mr-4 text-xl" />
                             <span>Dashboard</span>
-                        </div>
+                        </NavLink>
                     </li>
 
                     <li>
-                        <div
+                        <NavLink
                             id="menu-2"
-                            className="hover:text-hijau flex cursor-pointer items-center rounded-xl p-4 font-medium text-gray-600 hover:bg-green-200 hover:font-extrabold"
+                            to="/orders"
+                            className={menuClass}
                         >
                             <FaList className="mr-4 text-xl" />
                             <span>Orders</span>
-                        </div>
+                        </NavLink>
                     </li>
 
                     <li>
-                        <div
+                        <NavLink
                             id="menu-3"
-                            className="hover:text-hijau flex cursor-pointer items-center rounded-xl p-4 font-medium text-gray-600 hover:bg-green-200 hover:font-extrabold"
+                            to="/customers"
+                            className={menuClass}
                         >
                             <FaHeadphones className="mr-4 text-xl" />
                             <span>Customers</span>
-                        </div>
+                        </NavLink>
                     </li>
 
                 </ul>
@@ -93,7 +103,7 @@ export default function Sidebar() {
                     <img
                         id="footer-avatar"
                         className="w-20 rounded-full"
-                        src="https://randomuser.me/api/portraits/women/32.jpg"
+                        src="https://randomuser.me/api/portraits/women/50.jpg"
                     />
                 </div>
 

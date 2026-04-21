@@ -1,6 +1,7 @@
 import { MdDashboard } from "react-icons/md";
 import { FaList } from "react-icons/fa";
 import { FaHeadphones } from "react-icons/fa";
+import { Link } from "react-router-dom"
 
 export default function Sidebar() {
     return (
@@ -31,33 +32,36 @@ export default function Sidebar() {
                 <ul id="menu-list" className="space-y-3">
 
                     <li>
-                        <div
+                        <link
                             id="menu-1"
+                            to="/"
                             className="hover:text-hijau flex cursor-pointer items-center rounded-xl p-4 font-medium text-gray-600 hover:bg-green-200 hover:font-extrabold"
                         >
                             <MdDashboard className="mr-4 text-xl" />
                             <span>Dashboard</span>
-                        </div>
+                        </link>
                     </li>
 
                     <li>
-                        <div
+                        <link
                             id="menu-2"
+                            to="/orders"
                             className="hover:text-hijau flex cursor-pointer items-center rounded-xl p-4 font-medium text-gray-600 hover:bg-green-200 hover:font-extrabold"
                         >
                             <FaList className="mr-4 text-xl" />
                             <span>Orders</span>
-                        </div>
+                        </link>
                     </li>
 
                     <li>
-                        <div
+                        <link
                             id="menu-3"
+                            to="/customers"
                             className="hover:text-hijau flex cursor-pointer items-center rounded-xl p-4 font-medium text-gray-600 hover:bg-green-200 hover:font-extrabold"
                         >
                             <FaHeadphones className="mr-4 text-xl" />
                             <span>Customers</span>
-                        </div>
+                        </link>
                     </li>
 
                 </ul>
