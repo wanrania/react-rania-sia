@@ -8,6 +8,10 @@ import Error400 from "./pages/Error400"; // Tambahkan pages error
 import Error401 from "./pages/Error401";
 import Error403 from "./pages/Error403";
 import MainLayout from "./layouts/MainLayout";
+import Login from "./pages/auth/Login";
+import Register from "./pages/auth/Register";
+import Forgot from "./pages/auth/Forgot";
+import AuthLayout from "./layouts/AuthLayout";
 
 function App() {
   return (
@@ -24,6 +28,11 @@ function App() {
               <Route path="/orders" element={<Orders />} />
               <Route path="/customers" element={<Customers />} />
               <Route path="*" element={<ErrorPage code="404" />} />
+        </Route>
+        <Route element={<AuthLayout/>}>
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register/>} />
+            <Route path="/forgot" element={<Forgot/>} />
         </Route>
             </Routes>
 
