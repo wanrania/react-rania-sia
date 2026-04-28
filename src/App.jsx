@@ -1,21 +1,27 @@
 import "./assets/tailwind.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom"; // Tambahkan ini
-import Dashboard from "./pages/Dashboard";
-import Orders from "./pages/Orders";
-import Customers from "./pages/Customers";
-import ErrorPage from "./components/ErrorPage"; // Import ErrorPage
-import Error400 from "./pages/Error400"; // Tambahkan pages error
-import Error401 from "./pages/Error401";
-import Error403 from "./pages/Error403";
-import MainLayout from "./layouts/MainLayout";
-import Login from "./pages/auth/Login";
-import Register from "./pages/auth/Register";
-import Forgot from "./pages/auth/Forgot";
-import AuthLayout from "./layouts/AuthLayout";
+import React from "react";
+import Loading from "./components/Loading";
+import { Suspense } from "react";
 
 function App() {
+  const Dashboard = React.lazy(() => import("./pages/Dashboard"))
+  const Orders = React.lazy(() => import("./pages/Orders"))
+  const Customers = React.lazy(() => import("./pages/Customers"))
+  const Error400 = React.lazy(() => import("./pages/Error400"))
+  const Error401 = React.lazy(() => import("./pages/Error401"))
+  const Error403 = React.lazy(() => import("./pages/Error403"))
+  const Login = React.lazy(() => import("./pages/auth/Login"))
+  const Forgot = React.lazy(() => import("./pages/auth/Forgot"))
+  const Register = React.lazy(() => import("./pages/auth/Register"))
+  const ErrorPage = React.lazy(() => import("./components/ErrorPage"))
+  const MainLayout = React.lazy(() => import("./layouts/MainLayout"))
+  const AuthLayout = React.lazy(() => import("./layouts/AuthLayout"))
+  // const Loading = React.lazy(() => import("./components/Loading"))
+  
   return (
     <BrowserRouter> {/* Wrap dengan BrowserRouter */}
+    <Suspense fallback={<Loading />}>
       <Routes>
         <Route element={<MainLayout/>}>
               {/* Error Routes */}
@@ -35,7 +41,7 @@ function App() {
             <Route path="/forgot" element={<Forgot/>} />
         </Route>
             </Routes>
-
+</Suspense>
     </BrowserRouter>
   );
 }
