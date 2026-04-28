@@ -1,7 +1,7 @@
 import { MdDashboard } from "react-icons/md";
 import { FaList, FaHeadphones } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
-import { ErrorMenuItems } from "../components/SidebarMenu"; // NAMED IMPORT
+import { ErrorMenuItems } from "./SidebarMenu"; // NAMED IMPORT
 
 export default function Sidebar() {
   const menuClass = ({ isActive }) =>
