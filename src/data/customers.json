@@ -1,0 +1,212 @@
+[
+  {
+    "id": "C001",
+    "name": "Andi Saputra",
+    "email": "andi@mail.com",
+    "phone": "081234567001",
+    "loyalty": "Gold"
+  },
+  {
+    "id": "C002",
+    "name": "Budi Santoso",
+    "email": "budi@mail.com",
+    "phone": "081234567002",
+    "loyalty": "Silver"
+  },
+  {
+    "id": "C003",
+    "name": "Citra Lestari",
+    "email": "citra@mail.com",
+    "phone": "081234567003",
+    "loyalty": "Bronze"
+  },
+  {
+    "id": "C004",
+    "name": "Dewi Anggraini",
+    "email": "dewi@mail.com",
+    "phone": "081234567004",
+    "loyalty": "Gold"
+  },
+  {
+    "id": "C005",
+    "name": "Eko Prasetyo",
+    "email": "eko@mail.com",
+    "phone": "081234567005",
+    "loyalty": "Silver"
+  },
+  {
+    "id": "C006",
+    "name": "Fajar Hidayat",
+    "email": "fajar@mail.com",
+    "phone": "081234567006",
+    "loyalty": "Bronze"
+  },
+  {
+    "id": "C007",
+    "name": "Gina Marlina",
+    "email": "gina@mail.com",
+    "phone": "081234567007",
+    "loyalty": "Gold"
+  },
+  {
+    "id": "C008",
+    "name": "Hadi Wijaya",
+    "email": "hadi@mail.com",
+    "phone": "081234567008",
+    "loyalty": "Silver"
+  },
+  {
+    "id": "C009",
+    "name": "Indah Sari",
+    "email": "indah@mail.com",
+    "phone": "081234567009",
+    "loyalty": "Bronze"
+  },
+  {
+    "id": "C010",
+    "name": "Joko Susilo",
+    "email": "joko@mail.com",
+    "phone": "081234567010",
+    "loyalty": "Gold"
+  },
+  {
+    "id": "C011",
+    "name": "Kiki Amelia",
+    "email": "kiki@mail.com",
+    "phone": "081234567011",
+    "loyalty": "Silver"
+  },
+  {
+    "id": "C012",
+    "name": "Lukman Hakim",
+    "email": "lukman@mail.com",
+    "phone": "081234567012",
+    "loyalty": "Bronze"
+  },
+  {
+    "id": "C013",
+    "name": "Maya Putri",
+    "email": "maya@mail.com",
+    "phone": "081234567013",
+    "loyalty": "Gold"
+  },
+  {
+    "id": "C014",
+    "name": "Nanda Pratama",
+    "email": "nanda@mail.com",
+    "phone": "081234567014",
+    "loyalty": "Silver"
+  },
+  {
+    "id": "C015",
+    "name": "Oki Setiawan",
+    "email": "oki@mail.com",
+    "phone": "081234567015",
+    "loyalty": "Bronze"
+  },
+  {
+    "id": "C016",
+    "name": "Putri Ayu",
+    "email": "putri@mail.com",
+    "phone": "081234567016",
+    "loyalty": "Gold"
+  },
+  {
+    "id": "C017",
+    "name": "Qori Ahmad",
+    "email": "qori@mail.com",
+    "phone": "081234567017",
+    "loyalty": "Silver"
+  },
+  {
+    "id": "C018",
+    "name": "Rina Kurnia",
+    "email": "rina@mail.com",
+    "phone": "081234567018",
+    "loyalty": "Bronze"
+  },
+  {
+    "id": "C019",
+    "name": "Sandi Nugroho",
+    "email": "sandi@mail.com",
+    "phone": "081234567019",
+    "loyalty": "Gold"
+  },
+  {
+    "id": "C020",
+    "name": "Tina Yuliana",
+    "email": "tina@mail.com",
+    "phone": "081234567020",
+    "loyalty": "Silver"
+  },
+  {
+    "id": "C021",
+    "name": "Umar Faruq",
+    "email": "umar@mail.com",
+    "phone": "081234567021",
+    "loyalty": "Bronze"
+  },
+  {
+    "id": "C022",
+    "name": "Vina Melati",
+    "email": "vina@mail.com",
+    "phone": "081234567022",
+    "loyalty": "Gold"
+  },
+  {
+    "id": "C023",
+    "name": "Wahyu Hidayat",
+    "email": "wahyu@mail.com",
+    "phone": "081234567023",
+    "loyalty": "Silver"
+  },
+  {
+    "id": "C024",
+    "name": "Xena Putri",
+    "email": "xena@mail.com",
+    "phone": "081234567024",
+    "loyalty": "Bronze"
+  },
+  {
+    "id": "C025",
+    "name": "Yudi Santika",
+    "email": "yudi@mail.com",
+    "phone": "081234567025",
+    "loyalty": "Gold"
+  },
+  {
+    "id": "C026",
+    "name": "Zahra Nabila",
+    "email": "zahra@mail.com",
+    "phone": "081234567026",
+    "loyalty": "Silver"
+  },
+  {
+    "id": "C027",
+    "name": "Agus Salim",
+    "email": "agus@mail.com",
+    "phone": "081234567027",
+    "loyalty": "Bronze"
+  },
+  {
+    "id": "C028",
+    "name": "Bella Sari",
+    "email": "bella@mail.com",
+    "phone": "081234567028",
+    "loyalty": "Gold"
+  },
+  {
+    "id": "C029",
+    "name": "Chandra Wijaya",
+    "email": "chandra@mail.com",
+    "phone": "081234567029",
+    "loyalty": "Silver"
+  },
+  {
+    "id": "C030",
+    "name": "Dina Kartika",
+    "email": "dina@mail.com",
+    "phone": "081234567030",
+    "loyalty": "Bronze"
+  }
+]

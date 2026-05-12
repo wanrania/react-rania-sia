@@ -17,6 +17,9 @@ function App() {
   const ErrorPage = React.lazy(() => import("./components/ErrorPage"))
   const MainLayout = React.lazy(() => import("./layouts/MainLayout"))
   const AuthLayout = React.lazy(() => import("./layouts/AuthLayout"))
+  const Products = React.lazy(() => import("./pages/Products"))
+  const ProductDetail = React.lazy(() => import("./pages/ProductDetail"))
+  const CustomerDetail = React.lazy(() => import("./pages/CustomerDetail"))
   // const Loading = React.lazy(() => import("./components/Loading"))
   
   return (
@@ -33,6 +36,9 @@ function App() {
               <Route path="/" element={<Dashboard />} />
               <Route path="/orders" element={<Orders />} />
               <Route path="/customers" element={<Customers />} />
+              <Route path="/products" element={<Products />} />
+               <Route path="/products/:id" element={<ProductDetail />} />
+               <Route path="/customers/:id" element={<CustomerDetail />} /> 
               <Route path="*" element={<ErrorPage code="404" />} />
         </Route>
         <Route element={<AuthLayout/>}>

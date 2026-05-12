@@ -52,6 +52,13 @@ export default function Sidebar() {
             </NavLink>
           </li>
 
+          <li>
+            <NavLink id="menu-4" to="/products" className={menuClass}>
+              <FaList className="mr-4 text-xl" />
+              <span>Products</span>
+            </NavLink>
+          </li>
+
           {/* Divider */}
           <li className="my-6">
             <div className="w-full h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent"></div>
