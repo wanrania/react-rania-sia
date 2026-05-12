@@ -17,7 +17,7 @@ export default function Dashboard() {
     <div>
       {/* Page Header */}
       <PageHeader 
-        title="Dashboard"
+        title="Halaman Dashboard"
         breadcrumb={["Home"]}
       >
         <div className="flex space-x-2">
