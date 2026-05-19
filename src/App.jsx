@@ -20,6 +20,7 @@ function App() {
   const Products = React.lazy(() => import("./pages/Products"))
   const ProductDetail = React.lazy(() => import("./pages/ProductDetail"))
   const CustomerDetail = React.lazy(() => import("./pages/CustomerDetail"))
+  const Components = React.lazy(() => import("./pages/Components"))
   // const Loading = React.lazy(() => import("./components/Loading"))
   
   return (
@@ -37,6 +38,7 @@ function App() {
               <Route path="/orders" element={<Orders />} />
               <Route path="/customers" element={<Customers />} />
               <Route path="/products" element={<Products />} />
+              <Route path="/components" element={<Components />} />
                <Route path="/products/:id" element={<ProductDetail />} />
                <Route path="/customers/:id" element={<CustomerDetail />} /> 
               <Route path="*" element={<ErrorPage code="404" />} />
