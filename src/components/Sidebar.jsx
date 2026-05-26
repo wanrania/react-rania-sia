@@ -72,6 +72,13 @@ export default function Sidebar() {
             </NavLink>
           </li>
 
+          <li>
+            <NavLink to="/fitur-xyz" className={menuClass}>
+              <FaPuzzlePiece className="mr-4 text-xl" />
+              <span>Fitur XYZ</span>
+            </NavLink>
+          </li>
+
           {/* Divider */}
           <li className="py-4">
             <div className="h-px w-full bg-gray-200"></div>
