@@ -1,10 +1,5 @@
 import { MdDashboard } from "react-icons/md";
-import {
-  FaList,
-  FaHeadphones,
-  FaBoxOpen,
-  FaPuzzlePiece,
-} from "react-icons/fa";
+import { FaList, FaHeadphones, FaBoxOpen, FaPuzzlePiece, FaCogs, FaStickyNote } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 import { ErrorMenuItems } from "./SidebarMenu";
 
@@ -74,8 +69,15 @@ export default function Sidebar() {
 
           <li>
             <NavLink to="/fitur-xyz" className={menuClass}>
-              <FaPuzzlePiece className="mr-4 text-xl" />
+              <FaCogs className="mr-4 text-xl" />
               <span>Fitur XYZ</span>
+            </NavLink>
+          </li>
+
+          <li>
+            <NavLink to="/notes" className={menuClass}>
+              <FaStickyNote className="mr-4 text-xl" />
+              <span>Notes</span>
             </NavLink>
           </li>
 
